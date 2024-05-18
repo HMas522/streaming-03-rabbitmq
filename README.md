@@ -1,7 +1,7 @@
 # streaming-03-rabbitmq
 
 ## Hayley Massey
-## 12 May 2024
+## 18 May 2024
 
 > Get started with RabbitMQ, a message broker, that enables multiple processes to communicate reliably through an intermediary.
 
