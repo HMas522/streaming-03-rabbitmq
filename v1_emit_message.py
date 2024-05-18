@@ -16,10 +16,10 @@ ch = conn.channel()
 ch.queue_declare(queue="hello")
 
 # use the channel to publish a message to the queue
-ch.basic_publish(exchange="", routing_key="hello", body="qo' vIvan!")
+ch.basic_publish(exchange="", routing_key="hello", body="!Hola mundo!")
 
 # print a message to the console for the user
-print(" [x] Sent 'qo' vIvan!'")
+print(" [x] Sent '!Hola mundo!'")
 
 # close the connection to the server
 conn.close()
